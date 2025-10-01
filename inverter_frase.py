@@ -5,7 +5,7 @@ def processar_frase():
     # Recebe a frase digitada pelo usuário
     frase_original = input('Digite uma frase: ')
 
-    # Dividi a frase em listas de palavras
+    # Divide a frase em listas de palavras
     # O método .split() separa a string por espaços em branco por padrão
     palavras = frase_original.split()
 
