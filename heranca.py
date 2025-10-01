@@ -1,4 +1,8 @@
+<<<<<<< HEAD
  # Superclasse (Classe Mãe)
+=======
+# Superclasse (Classe Mãe)
+>>>>>>> 3e7ed5ebecbc18642fb66c3062c55af376c3a135
 class Animal:
     def __init__(self, nome, especie):
         self.nome = nome
