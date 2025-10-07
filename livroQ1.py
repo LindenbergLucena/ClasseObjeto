@@ -10,11 +10,11 @@ class Livro:
         self.lido = True
               
     def exibir_status(self):
-        # status = "Foi lido" if self.lido else "não foi lido"
-        if self.lido:
-                status = "Já foi lido"
-        else:
-                status = "Não foi lido"
+        status = "Foi lido" if self.lido else "não foi lido"
+        #if self.lido:
+                #status = "Já foi lido"
+        #else:
+                #status = "Não foi lido"
         # return f"O livro {self.titulo} de {self.autor}, {status}"
         print(f"O livro {self.titulo} de {self.autor}, {status}")
 
